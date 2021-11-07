@@ -1,3 +1,13 @@
+Warning
+=======
+
+This is NOT WORKING and an attempt to make JOYSTIC USB-HID support in Circuit Python based on Radial Controler.
+
+The goal is to take the code structure, but replace by the report and description from gamepad from this learn guide:
+https://learn.adafruit.com/customizing-usb-devices-in-circuitpython/hid-devices
+
+Work in Progress, do not expect anything yet.
+
 Introduction
 ============
 
