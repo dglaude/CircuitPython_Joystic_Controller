@@ -8,9 +8,21 @@ https://learn.adafruit.com/customizing-usb-devices-in-circuitpython/hid-devices
 
 Work in Progress, do not expect anything yet.
 
+This library make no sense... there is already gamepad support in CircuitPython_HID library:
+* https://github.com/adafruit/Adafruit_CircuitPython_HID/blob/main/examples/hid_gamepad.py
+* https://github.com/adafruit/Adafruit_CircuitPython_HID/blob/main/examples/hid_simple_gamepad.py
+* https://circuitpython.readthedocs.io/projects/hid/en/latest/examples.html#simple-gamepad
+
+The learn guide say it, but you have one piece of information in the learn guide and the other in the readthedocs or code.
+You have to put both together to figure it out... but I don't have to write any code, or just the glue to the Wii controller.
+
+"You will also need to write a CircuitPython driver to handle your new device. There are examples in the adafruit_hid library."
+
+
+So, I'll first try to use that...
+
 Introduction
 ============
-
 
 .. image:: https://readthedocs.org/projects/adafruit-circuitpython-radial_controller/badge/?version=latest
     :target: https://circuitpython.readthedocs.io/projects/radial_controller/en/latest/
